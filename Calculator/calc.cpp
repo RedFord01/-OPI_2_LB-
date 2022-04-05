@@ -14,7 +14,7 @@ int main() {
 
   switch(op) {
 
-    case 1:     result = a + b;  break;
+    case 1:     result = a + b;
 
                     break;
 
@@ -27,6 +27,10 @@ int main() {
                     break;
 
     case 4:	result = (double) a / b;
+
+                    break;
+
+    case 4:	result = pow(a , b);
 
                     break;
 
